@@ -21,8 +21,8 @@ public class MyProjectApplication {
 		return "Hello, World";
 	}
 
-//	@GetMapping("/{name}")
-//	public String greeting(@PathVariable String name) {
-//		return "Hello " + name;
-//	}
+	@GetMapping("/{name}")
+	public String greeting(@PathVariable String name) {
+		return "Hello " + name;
+	}
 }
